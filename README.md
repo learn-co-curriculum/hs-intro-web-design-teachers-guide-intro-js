@@ -1,24 +1,24 @@
 ###SWABATs
-
-+ perform math with JS
-+ declare JavaScript variables
-+ declare JS constants
-+ understand JS datatypes
-+ execute string concatenate
-+ utilize string methods
-+ execute string concatenate
-+ understand datatype conversion and why/when to use it
-+ use different types of dialogue boxes like alerts and
-+ display text in the console
-+ understand comparison and logic operators
-+ use conditional statements to control program flow (if/else and switch)
-+ DOM - explain what the document object model is and how we can interact with it
-+ DOM - understand the tree-like structure of the DOM
-+ jQuery - use proper syntax
-+ jQuery - how to use selectors and methods together to manipulate the DOM
-+ jQuery - how to use jQuery selectors - they are essentially the same as CSS selectors
-+ jQuery - understand what jQuery is - a library that helps us interact with the DOM
-+ jQuery - set up a document with jQuery
+***Students will be able to understand the fundamentals of jQuery and incorporate them into their projects***
++ Perform math with JS
++ Declare JavaScript variables
++ Declare JS constants
++ Understand JS datatypes
++ Execute string concatenate
++ Utilize string methods
++ Execute string concatenate
++ Understand datatype conversion and why/when to use it
++ Use different types of dialogue boxes like alerts and
++ Display text in the console
++ Understand comparison and logic operators
++ Use conditional statements to control program flow (if/else and switch)
++ DOM - Explain what the document object model is and how we can interact with it
++ DOM - Understand the tree-like structure of the DOM
++ jQuery - Use proper syntax
++ jQuery - Use selectors and methods together to manipulate the DOM
++ jQuery - Use jQuery selectors - they are essentially the same as CSS selectors
++ jQuery - Understand what jQuery is - a library that helps us interact with the DOM
++ jQuery - Set up a document with jQuery
 
 
 ###Motivation
@@ -29,35 +29,40 @@ You guys have all of the basics for creating fantastic, responsive web designs. 
 + Variables
 	+ A variable is like a bucket that we can store some data inside and then later change the data it stores.
 	+ You need to declare variables explicitly in JavaScript with the var keyword like this:
-		+ var x; 
-		+ //var is a keyword that declares a variable
-+ Naming variables: start with letter a-z A-Z remaining 0-9 a-z A-Z, you can also use _ never use spaces ' ' or or illegal characters (! % ?)
+		+ `var x;` 
+		+ `var` is a keyword that declares a variable
++ Naming variables: start with letter a-z A-Z remaining 0-9 a-z A-Z, you can also use `_ `never use spaces ' ' or or illegal characters (! % ?)
 + For variable names consisting of multiple words you should use camelCase or snake_case (camelCase is generally what JS developers use by convention)
 + Let's assign a value in x (remember we said var x; previously)
-	+ x = 10;
-+ I can refer directly to x and change its value using = symbol
+	+ `x = 10;`
++ I can refer directly to x and change its value using `=` symbol
 + We can also declare and assign a value simultaneously.
-	+ var y = 20;
+	+ `var y = 20;`
 + Declare multiple variables at once using comma separation.
-	+ var a = 1,
-	+ b = 2, 
-	+ c = 3;
+	```js
+	var a = 1,
+	b = 2, 
+	c = 3;
+	```
 + Perform math on variables
-	+ var x = 10, 
-	+ y = 20,
-	+ 	myMath = x + y;|
-+ What does myMath equal? 
-	+ x = 5;
-	+ myMath = x + y;
-+ //What does myMath equal now?
+	```js
+	var x = 10, 
+	y = 20,
+	myMath = x + y;
+	//What does myMath equal? 
+
+	x = 5;
+	myMath = x + y;
+	//What does myMath equal now?
+```
 + Constants
 	+ A constant is like a bucket with a lid that is glued shut, and once you store a value inside it, you cannot change that value again.
-		+ const STAY_THE_SAME = 1;
-	+ Just like var, const is a keyword that declares a constant
-		+ STAY_THE_SAME = 2;	
+		+ `const STAY_THE_SAME = 1;`
+	+ Just like `var`, `const` is a keyword that declares a constant
+		+ `STAY_THE_SAME = 2;`
 	+ How much does STAY_THE_SAME equal now?
 		+ Still equals 1… Always equals 1…
-+ <b>What are the types of values that I can store inside of variables?</b>
++ *What are the types of values that I can store inside of variables?*
 + JavaScript data types:
 	+ Numbers: integers (whole numbers) like 2, floats (decimals) like 3.56789
 	+ Strings: (text) like 'hello' or "hello"
@@ -65,73 +70,72 @@ You guys have all of the basics for creating fantastic, responsive web designs. 
 	+ null (empty)
 	+ undefined (not yet defined)
 + Checking the data type:
-	+ typeof is a keyword that allows us to check the data type.
-		+ const STAY_THE_SAME = 1;
-		+ typeof STAY_THE_SAME; //reports type of number 
-		+ var hamburger = 'Yumm';
-		+ typeof hamburger; //reports type of string
+	+ `typeof` is a keyword that allows us to check the data type.
+		+ `const STAY_THE_SAME = 1;`
+		+ `typeof STAY_THE_SAME;` //reports type of number 
+		+ `var hamburger = 'Yumm';`
+		+ `typeof hamburger;` //reports type of string
 + Concatenation:
-	+ JavaScript uses + symbol for math when surrounded by numbers, but when any content is a string, it will concatenate the text. If Boolean and a number: true = 1 and false = 0. So true + 2 = 3… weird huh? This can produce unexpected results unless we are careful how we use + symbol. It’s also good idea to be aware what data types are involved.
-		+ var combineStuff = '10' + 5; //string concatenation	
-		+ 'Adding a string to a number does this: 		+ '+combineStuff+' weird! ';
+	+ JavaScript uses `+` symbol for math when surrounded by numbers, but when any content is a string, it will concatenate the text. If Boolean and a number: `true = 1` and `false = 0`. So `true + 2 = 3`… weird huh? This can produce unexpected results unless we are careful how we use `+` symbol. It’s also good idea to be aware what data types are involved.
+		+ `var combine = '10' + 5;` //string concatenation
+		+ When you ask for `combine` you get `"105"`
+		+ 'Adding a string to a number does this: '+combineStuff+' weird! ';
 		+ This prints 105 weird!
+
+
+
 + String Methods:
 	+ String methods can be called on a string to modify the string in some way. Usually you can figure out what a method is going to do just based on its name. Some examples:
 	+ //toUpperCase
-	+ "Foobar”.toUpperCase(); //returns "FOOBAR"
-
+		+ `"Foobar”.toUpperCase();` //returns "FOOBAR"
 	+ //toLowerCase
-	+ "Foobar".toLowerCase(); //returns "foobar"
-
+		+ `"Foobar".toLowerCase();` //returns "foobar"
 	+ //replace
-	+ "Foobar".replace("bar", "baz"); //returns "Foobaz"
-	+ "Foobar".replace(/o/g, "x"); //returns "Fxxbar"
-
+		+ `"Foobar".replace("bar", "baz");` //returns "Foobaz"
+		+ `"Foobar".replace(/o/g, "x");` //returns "Fxxbar
 	+ //method chaining
-	+ "Foobar".replace(/o/g, "x").toUpperCase(); //returns "FXXBAR"
+		+ `"Foobar".replace(/o/g, "x").toUpperCase();` //returns "FXXBAR"
 + Data Type Conversion
-	+ var stringy = 12 + ' ';
 	+ //concatenating empty string changes number to a string.
-		
-	+ typeof stringy; //prints “string”
-
-	+ combineStuff = parseInt('10') + 5;
+		+ `var stringy = 12 + ' ';`
+		+ `typeof stringy;` //prints “string”
 	+ //parseInt changes a string to a whole number.
-	+ combineStuff; //prints 15
-
-	+ //what the heck happens if I try converting text to a number?
-	+ var userName = parseInt('bob'); //returns NaN
-	+ //NaN stands for Not a Number!
-
-	+ //what if I want to convert to a floating number instead of an integer?
-
-	+ var gallonsGas = parseFloat('10.25');
-	+ gallonsGas; //reports 10.25 as number
-
-	+ //parseInt stops as whole number and ignores characters that are not numbers. 10xffffff same as 10.12345 becomes 10. Where as parseFloat maintains decimal values.
+		+ `combineStuff = parseInt('10') + 5;`
+		+ `combineStuff`; //prints 15
+	+ What the heck happens if I try converting text to a number?
+		+ `var userName = parseInt('bob');` //returns NaN
+		+ `NaN` stands for Not a Number!
+	+ What if I want to convert to a floating number instead of an integer?
+		+ `var gallonsGas = parseFloat('10.25');`
+		+ `gallonsGas;` //reports 10.25 as number
+	+ `parseInt` stops at whole number and ignores characters that are not numbers. 10xffffff same as 10.12345 becomes 10. Where as `parseFloat` maintains decimal values.
 + Dialog Boxes and JS Console
-	+ //alert
-	+ alert('warning do not attempt to cook food using this website!');
-
-	+ //confirm
-	+ var delete = confirm('Are you sure you want to delete this?'); //true or false
-
-	+ //prompt
-	+ var age = prompt('Please enter your age: '); //captures the value inserted.
-
-	+ //log
-	+ console.log(age); //reports the age they entered into the JS Console located in the developer too window.
+	+ alerts:
+		+ `alert('warning do not attempt to cook food using this website!');`
+	+ confirm
+		+ `var delete = confirm('Are you sure you want to delete this?');` //true or false
+	+ prompt
+		+ `var age = prompt('Please enter your age: ');` //captures the value inserted.
+	+ Log
+		+ `console.log(age);` 
+		+ reports the age they entered into the JS Console located in the developer too window.
 + Doing math with JavaScript: 
-+ Operators
-	+ Arithmetic
+	+ Operators
+		+ Arithmetic
+
 <img src= "https://s3.amazonaws.com/after-school-assets/jquery.png">
+
 	+ Shorthand Operators
-	+ shortcut		original
-	+ x += y			x = x + y
-	+ x -= y			x = x - y
-	+ x *= y			x = x * y
-	+ x /= y			x = x / y
-	+ x %= y			x = x % y
+	| shortcut  | original  | 
+|---|---|
+| x += y  | x = x + y  | 
+| x -= y  |  x = x - y | 
+|  x *= y  | x = x * y  |
+|	x *= y	| x = x * y|
+
+| x /= y | x = x / y |
+|	x %= y | x = x % y | 
+
 + Conditional Statements
 	+ Who here has done if then statements in math class? This is a conditional statement.
 	+ A conditional statement is a set of commands that executes if a specified condition is true. 
