@@ -126,7 +126,8 @@ You guys have all of the basics for creating fantastic, responsive web designs. 
 <img src= "https://s3.amazonaws.com/after-school-assets/jquery.png">
 
 	+ Shorthand Operators
-	| shortcut  | original  | 
+
+| shortcut  | original  | 
 |---|---|
 | x += y  | x = x + y  | 
 | x -= y  |  x = x - y | 
