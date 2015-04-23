@@ -133,7 +133,6 @@ You guys have all of the basics for creating fantastic, responsive web designs. 
 | x -= y  |  x = x - y | 
 |  x *= y  | x = x * y  |
 |	x *= y	| x = x * y|
-
 | x /= y | x = x / y |
 |	x %= y | x = x % y | 
 
