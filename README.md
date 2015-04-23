@@ -1,5 +1,5 @@
 ###SWBATs
-***Students will be able to understand the fundamentals of jQuery and incorporate them into their projects***
+*** Students will be able understand the fundamentals of JavaScript***
 + Perform math with JS
 + Declare JavaScript variables
 + Declare JS constants
@@ -12,13 +12,6 @@
 + Display text in the console
 + Understand comparison and logic operators
 + Use conditional statements to control program flow (if/else and switch)
-+ DOM - Explain what the document object model is and how we can interact with it
-+ DOM - Understand the tree-like structure of the DOM
-+ jQuery - Use proper syntax
-+ jQuery - Use selectors and methods together to manipulate the DOM
-+ jQuery - Use jQuery selectors - they are essentially the same as CSS selectors
-+ jQuery - Understand what jQuery is - a library that helps us interact with the DOM
-+ jQuery - Set up a document with jQuery
 
 
 ###Motivation
