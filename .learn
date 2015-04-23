@@ -1,8 +1,9 @@
 languages:
-  - Java Scripts
+  - JavaScript
 tags:
-  - Java Script
-  - jQuery
+  - JavaScript
+  - data types
+  - methods
   - variables
   - kids
   - teacher guide
