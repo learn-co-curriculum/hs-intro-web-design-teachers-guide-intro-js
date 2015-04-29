@@ -1,5 +1,5 @@
 ###SWBATs
-*** Students will be able understand the fundamentals of JavaScript***
+***Students will be able understand the fundamentals of JavaScript***
 + Perform math with JS
 + Declare JavaScript variables
 + Declare JS constants
@@ -15,7 +15,7 @@
 
 
 ###Motivation
-You guys have all of the basics for creating fantastic, responsive web designs. Now for the icing on the cake - using jQuery to add animated and interactive elements.
+You guys have all of the basics for creating fantastic, responsive web designs. Now for the icing on the cake - using jQuery to add animated and interactive elements. jQuery is a JavaScript library, which means you need to understand some JS fundamentals. JS is the most widely used programming language. 
 
 ###Lesson Plan
 + Before we launch right into jQuery there are a few fundamental principles of JavaScript that we are going to have to go over.
@@ -64,12 +64,12 @@ You guys have all of the basics for creating fantastic, responsive web designs. 
 	+ undefined (not yet defined)
 + Checking the data type:
 	+ `typeof` is a keyword that allows us to check the data type.
-		```js
+	```js
 		const STAY_THE_SAME = 1;
 		typeof STAY_THE_SAME; //reports type of number 
 		var hamburger = 'Yumm';
 		typeof hamburger; //reports type of string
-		```
+	```
 + Concatenation:
 	+ JavaScript uses `+` symbol for math when surrounded by numbers, but when any content is a string, it will concatenate the text. If Boolean and a number: `true = 1` and `false = 0`. So `true + 2 = 3`… weird huh? This can produce unexpected results unless we are careful how we use `+` symbol. It’s also good idea to be aware what data types are involved.
 		```js
