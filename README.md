@@ -207,3 +207,5 @@ You guys have all of the basics for creating fantastic, responsive web designs. 
 
 
 
+
+<a href='https://learn.co/lessons/hs-intro-web-design-teachers-guide-intro-js' data-visibility='hidden'>View this lesson on Learn.co</a>
